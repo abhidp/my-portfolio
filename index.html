@@ -3,6 +3,7 @@
   <head>
     <title>My Portfolio</title>
     <link rel="stylesheet" type="text/css" href="css/superslides.css" />
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css" />
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -36,7 +37,51 @@
       </nav>
     </div>
 
-    <script src="js/script.js" ;></script>
+    <div id="about" class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <img class="aboutImage" src="img/me.jpg" />
+          </div>
+          <div class="col-md-8">
+            <h4>My name is Abhi Daspatnaik</h4>
+            <p>
+              A passionate Software Dev in Test with over 12 years of full-time
+              Software engineering experience with companies ranging from
+              start-ups to giant CMMI-Level5 Enterprises. I am a Certified Agile
+              practitioner (from ScrumAlliance), involved in delivering quality
+              at every phase of product development. I am also an ISTQB®
+              Certified Tester and iSQI® Certified Mobile App Tester.
+            </p>
+            <p>
+              I aspire to be an SDET in a Test-First DevOps Engineering culture.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="skills" class="skillSection section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h2>TECHNICAL SKILLS</h2>
+            <p>A representation of my proficiecy in each skill</p>
+          </div>
+          <div class="owl-carousel owl-theme">
+            <div class="skill">
+              <span class="chart" data-percent="67">
+                <span class="percent">67</span>
+                <canvas height="152" width="152"></canvas>
+              </span>
+              <h4>JavaScript</h4>
+              <p>Used in most of my projects</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <script src="js/typed.min.js" ;></script>
     <script
       src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
@@ -49,5 +94,8 @@
       crossorigin="anonymous"
     ></script>
     <script src="js/jquery.superslides.min.js" ;></script>
+    <script src="js/easypiechart.min.js" ;></script>
+    <script src="js/owl.carousel.min.js" ;></script>
+    <script src="js/script.js" ;></script>
   </body>
 </html>
