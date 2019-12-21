@@ -118,3 +118,13 @@ body {
   color: #5352ed;
   background-color: #fff;
 }
+
+.copyrightSection {
+  background-color: black;
+  color: #fff;
+  padding: 30px 5px;
+}
+
+.copyrightSection {
+  margin: 0;
+}
